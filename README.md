@@ -12,6 +12,7 @@ It is a brief description. One can find more details at official page of origina
 
 
 -= Installation =-
- 1. Copy "TextWrap.py" and "TextWrap.pluma-plugin" files to "~/.config/pluma/plugins/". If necessary, create a directory "plugins".
+ 1. Copy "TextWrap.py" and "TextWrap.pluma-plugin" files to "~/.config/pluma/plugins/" or "~/.local/share/pluma/plugins". If necessary, create a directory "plugins".
+    Which directory is indeed needed can be determined by experimental way. It depends on XDG configuration and result of g_get_user_config_dir() and g_get_user_data_dir() GLIB-functions.
  2. Restart Pluma.
  3. Enable "Text Wrap" plugin in Pluma preferences.
